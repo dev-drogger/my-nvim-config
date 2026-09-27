@@ -53,7 +53,6 @@ if vim.fn.executable 'make' == 1 then table.insert(telescope_plugins, gh 'nvim-t
 
 vim.pack.add {
   gh 'NMAC427/guess-indent.nvim',
-  gh 'folke/todo-comments.nvim',
   gh 'lewis6991/gitsigns.nvim',
   gh 'folke/todo-comments.nvim',
   gh 'nvim-mini/mini.nvim',
@@ -67,8 +66,8 @@ vim.pack.add {
   gh 'windwp/nvim-ts-autotag',
   gh 'stevearc/conform.nvim',
   gh 'pmizio/typescript-tools.nvim',
-  gh '3rd/image.nvim',
-  gh 'folke/snacks.nvim',
+  gh 'sainnhe/everforest',
+  gh 'eddyekofo94/gruvbox-flat.nvim',
   { src = gh 'mg979/vim-visual-multi', version = 'master' },
   { src = gh 'ThePrimeagen/harpoon', version = 'harpoon2' },
   { src = gh 'L3MON4D3/LuaSnip', version = vim.version.range '2.*' },

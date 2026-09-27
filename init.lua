@@ -2,7 +2,7 @@ require 'dev-drogger'
 
 do
   vim.loader.enable()
-  vim.cmd.colorscheme 'pastel2'
+  vim.cmd.colorscheme 'gruvbox-flat'
   vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
   vim.api.nvim_set_hl(0, 'NormalNC', { bg = 'none' })
   vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
@@ -31,6 +31,10 @@ do
   vim.o.cursorline = true
   vim.o.scrolloff = 10
   vim.o.confirm = true
+  vim.opt.expandtab = true
+  vim.opt.tabstop = 4
+  vim.opt.shiftwidth = 4
+  vim.opt.softtabstop = 4
 end
 
 do
